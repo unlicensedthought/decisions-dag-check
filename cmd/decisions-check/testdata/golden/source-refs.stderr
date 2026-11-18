@@ -1,0 +1,24 @@
+decisions: D-handles: transcript ref 'aaaaaaaa:L' is not <session8>:L<line>
+decisions: D-kick: transcript ref 'AAAAAAAA:L20' is not <session8>:L<line>
+decisions: D-kick: source.ref AAAAAAAA:L20 is not in source.session aaaaaaaa-0000-4000-8000-000000000001
+decisions: D-dark: transcript ref 'nope' is not <session8>:L<line>
+decisions: D-dark: transcript ref 7 is not <session8>:L<line>
+decisions: D-dark: transcript ref 1.0 is not <session8>:L<line>
+decisions: D-dark: transcript ref True is not <session8>:L<line>
+decisions: D-old-deploy: source.ref cccccccc:L5 is not in source.session bbbbbbbb-0000-4000-8000-000000000002
+decisions: D-auto-deploy: transcript ref 'b' is not <session8>:L<line>
+decisions: D-auto-deploy: transcript ref 'b' is not <session8>:L<line>
+decisions: D-auto-deploy: transcript ref 'b' is not <session8>:L<line>
+decisions: D-auto-deploy: transcript ref 'b' is not <session8>:L<line>
+decisions: D-auto-deploy: transcript ref 'b' is not <session8>:L<line>
+decisions: D-auto-deploy: transcript ref 'b' is not <session8>:L<line>
+decisions: D-auto-deploy: transcript ref 'b' is not <session8>:L<line>
+decisions: D-auto-deploy: transcript ref 'b' is not <session8>:L<line>
+decisions: D-auto-deploy: transcript ref ':' is not <session8>:L<line>
+decisions: D-auto-deploy: transcript ref 'L' is not <session8>:L<line>
+decisions: D-auto-deploy: transcript ref '1' is not <session8>:L<line>
+decisions: D-auto-deploy: transcript ref '1' is not <session8>:L<line>
+decisions: ledger: D-handles changed its title/decision/decided_by/source (fingerprint 5bfddc2be616, ledger 560839ff36b8): append 'D-handles<TAB>5bfddc2be616<TAB>corrected: <why>' or revert
+decisions: ledger: D-kick changed its title/decision/decided_by/source (fingerprint f171ab078307, ledger cd0313e9c78c): append 'D-kick<TAB>f171ab078307<TAB>corrected: <why>' or revert
+decisions: ledger: D-dark changed its title/decision/decided_by/source (fingerprint 03e86466dc0c, ledger 875f5d3af649): append 'D-dark<TAB>03e86466dc0c<TAB>corrected: <why>' or revert
+decisions: ledger: D-old-deploy changed its title/decision/decided_by/source (fingerprint a0c8b25e9aec, ledger 178e57d1a26a): append 'D-old-deploy<TAB>a0c8b25e9aec<TAB>corrected: <why>' or revert

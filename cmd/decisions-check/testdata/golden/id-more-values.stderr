@@ -1,0 +1,20 @@
+decisions: node #0 has a bad id None (want D-<slug>)
+decisions: node #1 has a bad id 'D-été' (want D-<slug>)
+decisions: node #2 has a bad id 'D-x\n' (want D-<slug>)
+decisions: node #3 has a bad id '' (want D-<slug>)
+decisions: node #4 has a bad id True (want D-<slug>)
+decisions: topic 'ops' is declared but no node uses it
+decisions: topic 'people' is declared but no node uses it
+decisions: topic 'ui' is declared but no node uses it
+decisions: ingest.triaged: bbbbbbbb:L7 covered_by missing id D-auto-deploy
+decisions: edges do not match the node fields (run check.py --sync-edges)
+decisions: ledger: D-handles was removed from the DAG (history is append-only: supersede it instead)
+decisions: ledger: D-kick was removed from the DAG (history is append-only: supersede it instead)
+decisions: ledger: D-dark was removed from the DAG (history is append-only: supersede it instead)
+decisions: ledger: D-old-deploy was removed from the DAG (history is append-only: supersede it instead)
+decisions: ledger: D-auto-deploy was removed from the DAG (history is append-only: supersede it instead)
+decisions: ledger: D-été is not in the ledger (append 'D-été<TAB>f6ca661d85ca<TAB>added')
+decisions: ledger: D-x
+ is not in the ledger (append 'D-x
+<TAB>780721da2a13<TAB>added')
+decisions: ledger: True is not in the ledger (append 'True<TAB>fc5422699456<TAB>added')

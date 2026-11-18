@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-01-03T00:00:00Z",
+  "topics": {
+    "people": "who may use it",
+    "ui": "the screens",
+    "ops": "running it"
+  },
+  "ingest": {
+    "cursor": {
+      "aaaaaaaa": 30,
+      "bbbbbbbb": 12
+    },
+    "triaged": [
+      {
+        "ref": "aaaaaaaa:L25",
+        "reason": "a status ping"
+      },
+      {
+        "ref": "bbbbbbbb:L7",
+        "reason": "a question",
+        "covered_by": "D-auto-deploy"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+decisions: node #0 has a bad id 1.0 (want D-<slug>)
+decisions: node #1 has a bad id 1 (want D-<slug>)
+decisions: node #2 has a bad id True (want D-<slug>)
+decisions: topic 'people' is declared but no node uses it
+decisions: topic 'ui' is declared but no node uses it
+decisions: edges do not match the node fields (run check.py --sync-edges)
+decisions: ledger: D-handles was removed from the DAG (history is append-only: supersede it instead)
+decisions: ledger: D-kick was removed from the DAG (history is append-only: supersede it instead)
+decisions: ledger: D-dark was removed from the DAG (history is append-only: supersede it instead)
+decisions: ledger: 1.0 is not in the ledger (append '1.0<TAB>c06e718951a1<TAB>added')

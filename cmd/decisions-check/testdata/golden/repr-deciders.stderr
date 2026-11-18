@@ -1,0 +1,15 @@
+decisions: D-handles: bad decided_by 1e-05
+decisions: D-handles: origin operator-turn must be decided_by operator
+decisions: D-kick: bad decided_by 0.0001
+decisions: D-kick: origin operator-turn must be decided_by operator
+decisions: D-dark: bad decided_by 1.5e-07
+decisions: D-dark: unknown must be decided_by assistant-best-guess
+decisions: D-dark: origin assistant must be decided_by assistant-best-guess
+decisions: D-old-deploy: bad decided_by False
+decisions: D-old-deploy: origin operator-turn must be decided_by operator
+decisions: D-auto-deploy: bad decided_by 2.5
+decisions: ledger: D-handles changed its title/decision/decided_by/source (fingerprint 0552d15c4eff, ledger 560839ff36b8): append 'D-handles<TAB>0552d15c4eff<TAB>corrected: <why>' or revert
+decisions: ledger: D-kick changed its title/decision/decided_by/source (fingerprint 5be90ceb7b94, ledger cd0313e9c78c): append 'D-kick<TAB>5be90ceb7b94<TAB>corrected: <why>' or revert
+decisions: ledger: D-dark changed its title/decision/decided_by/source (fingerprint 0994ec8f5245, ledger 875f5d3af649): append 'D-dark<TAB>0994ec8f5245<TAB>corrected: <why>' or revert
+decisions: ledger: D-old-deploy changed its title/decision/decided_by/source (fingerprint 9efe484d42c6, ledger 178e57d1a26a): append 'D-old-deploy<TAB>9efe484d42c6<TAB>corrected: <why>' or revert
+decisions: ledger: D-auto-deploy changed its title/decision/decided_by/source (fingerprint d092c3d6f19e, ledger 632743645793): append 'D-auto-deploy<TAB>d092c3d6f19e<TAB>corrected: <why>' or revert

@@ -1,0 +1,4 @@
+decisions: D-old-deploy: superseded_in_part_by references missing id D-nope
+decisions: D-old-deploy (2026-01-09T00:00:00Z) is superseded by the OLDER D-auto-deploy (2026-01-02T06:00:00Z): a newer directive cannot be replaced by an older one
+decisions: edges do not match the node fields (run check.py --sync-edges)
+decisions: ledger: D-old-deploy changed its title/decision/decided_by/source (fingerprint 636564793bfa, ledger 178e57d1a26a): append 'D-old-deploy<TAB>636564793bfa<TAB>corrected: <why>' or revert

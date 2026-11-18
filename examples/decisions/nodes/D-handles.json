@@ -1,0 +1,20 @@
+{
+  "id": "D-handles",
+  "title": "Handles",
+  "decision": "Players pick a handle.",
+  "why": "Names are private.",
+  "kind": "directive",
+  "source": {
+    "session": "aaaaaaaa-0000-4000-8000-000000000001",
+    "timestamp": "2026-01-01T00:00:00Z",
+    "quote": "use handles",
+    "ref": "aaaaaaaa:L10"
+  },
+  "decided_by": "operator",
+  "status": "active",
+  "depends_on": [],
+  "origin": "operator-turn",
+  "topics": [
+    "people"
+  ]
+}

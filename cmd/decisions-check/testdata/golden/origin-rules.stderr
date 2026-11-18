@@ -1,0 +1,9 @@
+decisions: D-handles: origin operator-answer needs source.ref, the transcript turn it came from
+decisions: D-kick: assistant-best-guess without best_guess_reason
+decisions: D-kick: origin relayed must be decided_by operator
+decisions: D-dark: unknown must be decided_by assistant-best-guess
+decisions: D-dark: origin assistant must be decided_by assistant-best-guess
+decisions: D-auto-deploy: pasted text is not the operator's decision; decided_by operator needs ratified_by (the operator turn that adopted it)
+decisions: ledger: D-handles changed its title/decision/decided_by/source (fingerprint 107e8e1d3ba8, ledger 560839ff36b8): append 'D-handles<TAB>107e8e1d3ba8<TAB>corrected: <why>' or revert
+decisions: ledger: D-kick changed its title/decision/decided_by/source (fingerprint 19400045702f, ledger cd0313e9c78c): append 'D-kick<TAB>19400045702f<TAB>corrected: <why>' or revert
+decisions: ledger: D-dark changed its title/decision/decided_by/source (fingerprint 0dd84e4394cd, ledger 875f5d3af649): append 'D-dark<TAB>0dd84e4394cd<TAB>corrected: <why>' or revert

@@ -1,0 +1,4 @@
+decisions: D-kick: partially-superseded without superseded_in_part_by
+decisions: D-kick: partially-superseded must say what still holds (remaining)
+decisions: topic people: D-dark (2026-01-02T12:00:00Z) and the earlier D-kick (2026-01-02T00:00:00Z) are both active and unrelated: say how the newer one relates (supersede, refines, superseded_in_part_by, conflicts_with or coexists_with)
+decisions: topic 'ui' is declared but no node uses it

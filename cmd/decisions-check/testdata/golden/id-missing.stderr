@@ -1,0 +1,5 @@
+decisions: node #0 has a bad id None (want D-<slug>)
+decisions: D-kick: depends_on references missing id D-handles
+decisions: D-kick: coexists_with references missing id D-handles
+decisions: edges do not match the node fields (run check.py --sync-edges)
+decisions: ledger: D-handles was removed from the DAG (history is append-only: supersede it instead)

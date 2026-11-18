@@ -1,0 +1,5 @@
+decisions: D-handles: source.ref aaaaaaaa:L10 is not in source.session 7
+decisions: D-kick: source.session missing
+decisions: D-kick: source.ref aaaaaaaa:L20 is not in source.session None
+decisions: ledger: D-handles changed its title/decision/decided_by/source (fingerprint de014d040c60, ledger 560839ff36b8): append 'D-handles<TAB>de014d040c60<TAB>corrected: <why>' or revert
+decisions: ledger: D-kick changed its title/decision/decided_by/source (fingerprint 3c235e6ea33d, ledger cd0313e9c78c): append 'D-kick<TAB>3c235e6ea33d<TAB>corrected: <why>' or revert

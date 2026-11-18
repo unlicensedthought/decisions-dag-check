@@ -1,0 +1,2 @@
+decisions: D-handles: missing depends_on
+decisions: D-handles: depends_on must be a list

@@ -1,0 +1,7 @@
+decisions: credential-like string (long hex string) near '123456...'
+decisions: D-handles: bad status 1e+16
+decisions: D-kick: bad status nan
+decisions: D-dark: bad status -inf
+decisions: D-old-deploy: bad status 123456789012345678901234567890123456789
+decisions: D-old-deploy: has superseded_by but status is not superseded
+decisions: D-auto-deploy: bad status -0.0

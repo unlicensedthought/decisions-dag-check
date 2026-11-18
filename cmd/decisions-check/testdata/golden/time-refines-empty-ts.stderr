@@ -1,0 +1,4 @@
+decisions: D-kick: source.timestamp missing
+decisions: cycle: D-handles -> D-kick -> D-handles
+decisions: edges do not match the node fields (run check.py --sync-edges)
+decisions: ledger: D-kick changed its title/decision/decided_by/source (fingerprint 3024a916d699, ledger cd0313e9c78c): append 'D-kick<TAB>3024a916d699<TAB>corrected: <why>' or revert

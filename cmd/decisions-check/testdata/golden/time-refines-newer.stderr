@@ -1,0 +1,3 @@
+decisions: D-handles (2026-01-01T00:00:00Z) refines the NEWER D-kick (2026-01-02T00:00:00Z): refine only what came before
+decisions: cycle: D-handles -> D-kick -> D-handles
+decisions: edges do not match the node fields (run check.py --sync-edges)

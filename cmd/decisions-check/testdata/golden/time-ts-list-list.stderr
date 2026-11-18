@@ -1,0 +1,4 @@
+decisions: D-old-deploy: source.timestamp missing
+decisions: D-auto-deploy: source.timestamp missing
+decisions: ledger: D-old-deploy changed its title/decision/decided_by/source (fingerprint 9420796ffafe, ledger 178e57d1a26a): append 'D-old-deploy<TAB>9420796ffafe<TAB>corrected: <why>' or revert
+decisions: ledger: D-auto-deploy changed its title/decision/decided_by/source (fingerprint 37668cf811b1, ledger 632743645793): append 'D-auto-deploy<TAB>37668cf811b1<TAB>corrected: <why>' or revert

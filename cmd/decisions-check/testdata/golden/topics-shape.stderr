@@ -1,0 +1,10 @@
+decisions: D-handles: topics must be a non-empty list
+decisions: D-kick: topics must be a non-empty list
+decisions: D-dark: missing topics
+decisions: D-dark: topics must be a non-empty list
+decisions: D-old-deploy: topic 'nope' is not declared in topics
+decisions: D-old-deploy: topic 7 is not declared in topics
+decisions: D-old-deploy: topic None is not declared in topics
+decisions: D-auto-deploy: topics must be a non-empty list
+decisions: topic 'people' is declared but no node uses it
+decisions: topic 'ui' is declared but no node uses it

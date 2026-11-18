@@ -1,0 +1,6 @@
+decisions: missing topics (an object of topic slug -> what it covers)
+decisions: D-handles: topic 'people' is not declared in topics
+decisions: D-kick: topic 'people' is not declared in topics
+decisions: D-dark: topic 'ui' is not declared in topics
+decisions: D-old-deploy: topic 'ops' is not declared in topics
+decisions: D-auto-deploy: topic 'ops' is not declared in topics

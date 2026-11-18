@@ -1,0 +1,5 @@
+decisions: D-handles: bad origin 0 (want one of assistant, global-claude-md, machine-hook, operator-answer, operator-feedback, operator-turn, pasted-content, relayed)
+decisions: D-kick: bad origin None (want one of assistant, global-claude-md, machine-hook, operator-answer, operator-feedback, operator-turn, pasted-content, relayed)
+decisions: D-dark: bad origin 'Operator-Turn' (want one of assistant, global-claude-md, machine-hook, operator-answer, operator-feedback, operator-turn, pasted-content, relayed)
+decisions: D-old-deploy: bad origin inf (want one of assistant, global-claude-md, machine-hook, operator-answer, operator-feedback, operator-turn, pasted-content, relayed)
+decisions: D-auto-deploy: bad origin 1.0 (want one of assistant, global-claude-md, machine-hook, operator-answer, operator-feedback, operator-turn, pasted-content, relayed)

@@ -1,0 +1,6 @@
+decisions: D-handles: source.timestamp '2026-01-01 00:00:00' is not ISO-8601 UTC (YYYY-MM-DDTHH:MM:SSZ)
+decisions: D-kick: source.timestamp '2026-01-02T00:00:00Z ' is not ISO-8601 UTC (YYYY-MM-DDTHH:MM:SSZ)
+decisions: D-dark: source.timestamp '2026-01-02T12:00:00+00:00' is not ISO-8601 UTC (YYYY-MM-DDTHH:MM:SSZ)
+decisions: ledger: D-handles changed its title/decision/decided_by/source (fingerprint 2a3451f5fbe2, ledger 560839ff36b8): append 'D-handles<TAB>2a3451f5fbe2<TAB>corrected: <why>' or revert
+decisions: ledger: D-kick changed its title/decision/decided_by/source (fingerprint 1aa84fa24815, ledger cd0313e9c78c): append 'D-kick<TAB>1aa84fa24815<TAB>corrected: <why>' or revert
+decisions: ledger: D-dark changed its title/decision/decided_by/source (fingerprint b6ba47ecf461, ledger 875f5d3af649): append 'D-dark<TAB>b6ba47ecf461<TAB>corrected: <why>' or revert

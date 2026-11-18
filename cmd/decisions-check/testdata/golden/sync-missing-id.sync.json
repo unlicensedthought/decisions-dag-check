@@ -1,0 +1,154 @@
+{
+  "generated_at": "2026-01-03T00:00:00Z",
+  "topics": {
+    "people": "who may use it",
+    "ui": "the screens",
+    "ops": "running it"
+  },
+  "nodes": [
+    {
+      "id": "D-handles",
+      "title": "Handles",
+      "decision": "Players pick a handle.",
+      "why": "Names are private.",
+      "kind": "directive",
+      "source": {
+        "session": "aaaaaaaa-0000-4000-8000-000000000001",
+        "timestamp": "2026-01-01T00:00:00Z",
+        "quote": "use handles",
+        "ref": "aaaaaaaa:L10"
+      },
+      "decided_by": "operator",
+      "status": "active",
+      "depends_on": [],
+      "origin": "operator-turn",
+      "topics": [
+        "people"
+      ]
+    },
+    {
+      "id": "D-kick",
+      "title": "Kick",
+      "decision": "Admins may kick.",
+      "why": "Abuse happens.",
+      "kind": "directive",
+      "source": {
+        "session": "aaaaaaaa-0000-4000-8000-000000000001",
+        "timestamp": "2026-01-02T00:00:00Z",
+        "quote": "let me kick people",
+        "ref": "aaaaaaaa:L20"
+      },
+      "decided_by": "operator",
+      "status": "active",
+      "depends_on": [
+        "D-handles"
+      ],
+      "coexists_with": [
+        "D-handles"
+      ],
+      "origin": "operator-turn",
+      "topics": [
+        "people"
+      ]
+    },
+    {
+      "title": "Dark mode",
+      "decision": "The UI follows the system theme.",
+      "why": "Night use.",
+      "kind": "feature",
+      "source": {
+        "session": "bbbbbbbb-0000-4000-8000-000000000002",
+        "timestamp": "2026-01-02T12:00:00Z",
+        "quote": "assistant inferred"
+      },
+      "decided_by": "assistant-best-guess",
+      "best_guess_reason": "Nobody said otherwise.",
+      "unknown": true,
+      "status": "active",
+      "depends_on": [],
+      "origin": "assistant",
+      "topics": [
+        "ui"
+      ]
+    },
+    {
+      "id": "D-old-deploy",
+      "title": "Deploy by hand",
+      "decision": "Deploys are manual.",
+      "why": "Early days.",
+      "kind": "policy",
+      "source": {
+        "session": "bbbbbbbb-0000-4000-8000-000000000002",
+        "timestamp": "2026-01-01T06:00:00Z",
+        "quote": "deploy it yourself",
+        "ref": "bbbbbbbb:L5"
+      },
+      "decided_by": "operator",
+      "status": "superseded",
+      "superseded_by": "D-auto-deploy",
+      "depends_on": [],
+      "origin": "operator-turn",
+      "topics": [
+        "ops"
+      ]
+    },
+    {
+      "id": "D-auto-deploy",
+      "title": "Deploy on land",
+      "decision": "Every land deploys.",
+      "why": "Less toil.",
+      "kind": "policy",
+      "source": {
+        "session": "bbbbbbbb-0000-4000-8000-000000000002",
+        "timestamp": "2026-01-02T06:00:00Z",
+        "quote": "deploy on every land",
+        "ref": "bbbbbbbb:L9",
+        "refs": [
+          "bbbbbbbb:L11"
+        ]
+      },
+      "decided_by": "operator",
+      "status": "active",
+      "depends_on": [],
+      "origin": "pasted-content",
+      "ratified_by": "bbbbbbbb:L11",
+      "topics": [
+        "ops"
+      ]
+    }
+  ],
+  "ingest": {
+    "cursor": {
+      "aaaaaaaa": 30,
+      "bbbbbbbb": 12
+    },
+    "triaged": [
+      {
+        "ref": "aaaaaaaa:L25",
+        "reason": "a status ping"
+      },
+      {
+        "ref": "bbbbbbbb:L7",
+        "reason": "a question",
+        "covered_by": "D-auto-deploy"
+      }
+    ]
+  },
+  "edges": [
+    {
+      "from": "D-kick",
+      "to": "D-handles",
+      "type": "depends_on"
+    },
+    {
+      "from": "D-kick",
+      "to": "D-handles",
+      "type": "coexists_with"
+    },
+    {
+      "from": "D-old-deploy",
+      "to": "D-auto-deploy",
+      "type": "superseded_by"
+    }
+  ]
+}

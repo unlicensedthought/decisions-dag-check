@@ -1,0 +1,10 @@
+decisions: D-dark: refines must be a non-empty list when present
+decisions: D-dark: implements must be a non-empty list when present
+decisions: D-dark: refines references missing id D
+decisions: D-dark: refines references missing id -
+decisions: D-dark: refines references missing id k
+decisions: D-dark: refines references missing id i
+decisions: D-dark: refines references missing id c
+decisions: D-dark: refines references missing id k
+decisions: D-dark: implements references missing id D-zz
+decisions: edges do not match the node fields (run check.py --sync-edges)

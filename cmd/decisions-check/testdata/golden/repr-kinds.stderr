@@ -1,0 +1,5 @@
+decisions: D-handles: bad kind "it's"
+decisions: D-kick: bad kind 'say "hi" it\'s'
+decisions: D-dark: bad kind 'tab\tnl\ncr\rbs\\ del\x7f nul\x00'
+decisions: D-old-deploy: bad kind '\u200b\xa0\xad\u2028\u3000é😀\ue000'
+decisions: D-auto-deploy: bad kind '\ud800'

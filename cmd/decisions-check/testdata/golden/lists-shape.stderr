@@ -1,0 +1,17 @@
+decisions: D-handles: depends_on must be a list
+decisions: D-kick: refines must be a non-empty list when present
+decisions: D-dark: implements must be a non-empty list when present
+decisions: D-old-deploy: conflicts_with must be a non-empty list when present
+decisions: D-auto-deploy: coexists_with must be a non-empty list when present
+decisions: D-handles: depends_on references missing id D
+decisions: D-handles: depends_on references missing id -
+decisions: D-handles: depends_on references missing id k
+decisions: D-handles: depends_on references missing id i
+decisions: D-handles: depends_on references missing id c
+decisions: D-handles: depends_on references missing id k
+decisions: D-dark: implements references missing id D
+decisions: D-dark: implements references missing id -
+decisions: D-dark: implements references missing id k
+decisions: D-dark: implements references missing id i
+decisions: D-dark: implements references missing id c
+decisions: D-dark: implements references missing id k

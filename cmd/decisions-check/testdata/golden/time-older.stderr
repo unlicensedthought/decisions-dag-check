@@ -1,0 +1,2 @@
+decisions: D-old-deploy (2026-01-03T00:00:00Z) is superseded by the OLDER D-auto-deploy (2026-01-02T06:00:00Z): a newer directive cannot be replaced by an older one
+decisions: ledger: D-old-deploy changed its title/decision/decided_by/source (fingerprint 523b8a34c4df, ledger 178e57d1a26a): append 'D-old-deploy<TAB>523b8a34c4df<TAB>corrected: <why>' or revert

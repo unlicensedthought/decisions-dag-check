@@ -1,0 +1,7 @@
+decisions: ingest.cursor: 'cccccccc' -> 0 is not session8 -> line
+decisions: ingest.cursor: 'dddddddd' -> 1.0 is not session8 -> line
+decisions: ingest.cursor: 'EEEEEEEE' -> 3 is not session8 -> line
+decisions: ingest.cursor: 'ffff' -> 3 is not session8 -> line
+decisions: ingest.cursor: '99999999' -> -1 is not session8 -> line
+decisions: ingest.cursor: 'aaaaaaab' -> '7' is not session8 -> line
+decisions: ingest.triaged: bbbbbbbb:L7 is past the cursor for bbbbbbbb

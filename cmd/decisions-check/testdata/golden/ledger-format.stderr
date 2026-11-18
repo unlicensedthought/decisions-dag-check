@@ -1,0 +1,10 @@
+decisions: ledger.tsv line 4: want id<TAB>fingerprint<TAB>note
+decisions: ledger.tsv line 5: want id<TAB>fingerprint<TAB>note
+decisions: ledger.tsv line 6: want id<TAB>fingerprint<TAB>note
+decisions: ledger.tsv line 7: want id<TAB>fingerprint<TAB>note
+decisions: ledger.tsv line 8: want id<TAB>fingerprint<TAB>note
+decisions: ledger.tsv line 11: D-dark changed without a 'corrected: <why>' note
+decisions: ledger.tsv line 15: want id<TAB>fingerprint<TAB>note
+decisions: ledger: D-old-deploy changed its title/decision/decided_by/source (fingerprint 178e57d1a26a, ledger 000000000000): append 'D-old-deploy<TAB>178e57d1a26a<TAB>corrected: <why>' or revert
+decisions: ledger: D-gone was removed from the DAG (history is append-only: supersede it instead)
+decisions: ledger: D-handles is not in the ledger (append 'D-handles<TAB>560839ff36b8<TAB>added')

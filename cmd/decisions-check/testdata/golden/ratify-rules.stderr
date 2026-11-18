@@ -1,0 +1,4 @@
+decisions: D-handles: ratified_by 'nope' is not <session8>:L<line>
+decisions: D-kick: ratified_by aaaaaaaa:L99 must also be listed in source.refs
+decisions: D-dark: ratified_by 7 is not <session8>:L<line>
+decisions: D-auto-deploy: ratified_by bbbbbbbb:L1 must also be listed in source.refs

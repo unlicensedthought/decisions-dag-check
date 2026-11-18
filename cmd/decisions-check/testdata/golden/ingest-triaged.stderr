@@ -1,0 +1,12 @@
+decisions: ingest.triaged: 'aaaaaaaa:L1' needs ref <session8>:L<line> and a reason
+decisions: ingest.triaged: {'ref': 'aaaaaaaa:L2'} needs ref <session8>:L<line> and a reason
+decisions: ingest.triaged: {'reason': 'x'} needs ref <session8>:L<line> and a reason
+decisions: ingest.triaged: {'ref': 'zz', 'reason': 'x'} needs ref <session8>:L<line> and a reason
+decisions: ingest.triaged: aaaaaaaa:L25 listed twice
+decisions: ingest.triaged: aaaaaaaa:L10 is already cited by a node; triage is for turns that hold no directive
+decisions: ingest.triaged: bbbbbbbb:L11 is already cited by a node; triage is for turns that hold no directive
+decisions: ingest.triaged: aaaaaaaa:L26 covered_by missing id D-nope
+decisions: ingest.triaged: aaaaaaaa:L31 is past the cursor for aaaaaaaa
+decisions: ingest.triaged: cccccccc:L1 is past the cursor for cccccccc
+decisions: ingest.triaged: None needs ref <session8>:L<line> and a reason
+decisions: ingest.triaged: 3 needs ref <session8>:L<line> and a reason

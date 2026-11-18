@@ -1,0 +1,24 @@
+{
+  "id": "D-auto-deploy",
+  "title": "Deploy on land",
+  "decision": "Every land deploys.",
+  "why": "Less toil.",
+  "kind": "policy",
+  "source": {
+    "session": "bbbbbbbb-0000-4000-8000-000000000002",
+    "timestamp": "2026-01-02T06:00:00Z",
+    "quote": "deploy on every land",
+    "ref": "bbbbbbbb:L9",
+    "refs": [
+      "bbbbbbbb:L11"
+    ]
+  },
+  "decided_by": "operator",
+  "status": "active",
+  "depends_on": [],
+  "origin": "pasted-content",
+  "ratified_by": "bbbbbbbb:L11",
+  "topics": [
+    "ops"
+  ]
+}

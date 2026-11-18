@@ -1,0 +1,7 @@
+decisions: D-handles: superseded without superseded_by
+decisions: D-kick: has superseded_by but status is not superseded
+decisions: D-dark: partially-superseded without superseded_in_part_by
+decisions: D-dark: partially-superseded must say what still holds (remaining)
+decisions: D-auto-deploy: conflict-open without conflicts_with
+decisions: D-auto-deploy: conflict-open needs conflict.question (for the operator) and conflict.best_guess (what is built meanwhile)
+decisions: edges do not match the node fields (run check.py --sync-edges)

@@ -1,0 +1,17 @@
+decisions: D-handles: missing title
+decisions: D-handles: missing decision
+decisions: D-handles: missing why
+decisions: D-handles: missing kind
+decisions: D-handles: missing source
+decisions: D-handles: missing decided_by
+decisions: D-handles: missing status
+decisions: D-handles: missing depends_on
+decisions: D-handles: missing origin
+decisions: D-handles: missing topics
+decisions: D-handles: bad kind None
+decisions: D-handles: bad status None
+decisions: D-handles: bad decided_by None
+decisions: D-handles: depends_on must be a list
+decisions: D-handles: bad origin None (want one of assistant, global-claude-md, machine-hook, operator-answer, operator-feedback, operator-turn, pasted-content, relayed)
+decisions: D-handles: topics must be a non-empty list
+decisions: ledger: D-handles changed its title/decision/decided_by/source (fingerprint 730ac9bf02a3, ledger 560839ff36b8): append 'D-handles<TAB>730ac9bf02a3<TAB>corrected: <why>' or revert

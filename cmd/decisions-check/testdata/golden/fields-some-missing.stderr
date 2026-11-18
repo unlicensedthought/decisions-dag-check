@@ -1,0 +1,7 @@
+decisions: D-dark: missing why
+decisions: D-dark: missing kind
+decisions: D-dark: missing status
+decisions: D-dark: missing origin
+decisions: D-dark: bad kind None
+decisions: D-dark: bad status None
+decisions: D-dark: bad origin None (want one of assistant, global-claude-md, machine-hook, operator-answer, operator-feedback, operator-turn, pasted-content, relayed)

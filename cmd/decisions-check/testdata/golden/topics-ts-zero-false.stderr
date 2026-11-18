@@ -1,0 +1,4 @@
+decisions: D-handles: source.timestamp missing
+decisions: D-kick: source.timestamp missing
+decisions: ledger: D-handles changed its title/decision/decided_by/source (fingerprint 9e118cbc8442, ledger 560839ff36b8): append 'D-handles<TAB>9e118cbc8442<TAB>corrected: <why>' or revert
+decisions: ledger: D-kick changed its title/decision/decided_by/source (fingerprint 52528d919e15, ledger cd0313e9c78c): append 'D-kick<TAB>52528d919e15<TAB>corrected: <why>' or revert

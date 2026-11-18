@@ -1,0 +1,8 @@
+decisions: D-dark: source must be an object
+decisions: D-old-deploy: source must be an object
+decisions: D-old-deploy: origin operator-turn needs source.ref, the transcript turn it came from
+decisions: D-auto-deploy: source must be an object
+decisions: D-auto-deploy: ratified_by bbbbbbbb:L11 must also be listed in source.refs
+decisions: ledger: D-dark changed its title/decision/decided_by/source (fingerprint dde6d56e1218, ledger 875f5d3af649): append 'D-dark<TAB>dde6d56e1218<TAB>corrected: <why>' or revert
+decisions: ledger: D-old-deploy changed its title/decision/decided_by/source (fingerprint 448be91852f5, ledger 178e57d1a26a): append 'D-old-deploy<TAB>448be91852f5<TAB>corrected: <why>' or revert
+decisions: ledger: D-auto-deploy changed its title/decision/decided_by/source (fingerprint 0474fcf13d71, ledger 632743645793): append 'D-auto-deploy<TAB>0474fcf13d71<TAB>corrected: <why>' or revert

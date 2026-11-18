@@ -1,0 +1,9 @@
+decisions: missing generated_at
+decisions: missing topics (an object of topic slug -> what it covers)
+decisions: missing ingest {cursor: {session8: line}, triaged: [...]} (see web/cmd/directive-turns)
+decisions: missing edges (run check.py --sync-edges)
+decisions: ledger: D-handles was removed from the DAG (history is append-only: supersede it instead)
+decisions: ledger: D-kick was removed from the DAG (history is append-only: supersede it instead)
+decisions: ledger: D-dark was removed from the DAG (history is append-only: supersede it instead)
+decisions: ledger: D-old-deploy was removed from the DAG (history is append-only: supersede it instead)
+decisions: ledger: D-auto-deploy was removed from the DAG (history is append-only: supersede it instead)

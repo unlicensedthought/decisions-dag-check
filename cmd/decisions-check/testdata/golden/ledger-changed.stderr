@@ -1,0 +1,5 @@
+decisions: D-kick: assistant-best-guess without best_guess_reason
+decisions: D-kick: origin operator-turn must be decided_by operator
+decisions: ledger: D-handles changed its title/decision/decided_by/source (fingerprint 51f2a6198c58, ledger 560839ff36b8): append 'D-handles<TAB>51f2a6198c58<TAB>corrected: <why>' or revert
+decisions: ledger: D-kick changed its title/decision/decided_by/source (fingerprint 19400045702f, ledger cd0313e9c78c): append 'D-kick<TAB>19400045702f<TAB>corrected: <why>' or revert
+decisions: ledger: D-old-deploy changed its title/decision/decided_by/source (fingerprint 1c00be0cd610, ledger 178e57d1a26a): append 'D-old-deploy<TAB>1c00be0cd610<TAB>corrected: <why>' or revert

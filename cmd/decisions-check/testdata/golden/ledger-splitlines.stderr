@@ -1,0 +1,6 @@
+decisions: ledger.tsv line 12: want id<TAB>fingerprint<TAB>note
+decisions: ledger: D-x was removed from the DAG (history is append-only: supersede it instead)
+decisions: ledger: D-y was removed from the DAG (history is append-only: supersede it instead)
+decisions: ledger: D-z was removed from the DAG (history is append-only: supersede it instead)
+decisions: ledger: D-w was removed from the DAG (history is append-only: supersede it instead)
+decisions: ledger: D-v was removed from the DAG (history is append-only: supersede it instead)

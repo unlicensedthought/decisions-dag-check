@@ -1,0 +1,2 @@
+decisions: D-kick: conflicts_with D-old-deploy, which is superseded: the conflict is resolved, close it
+decisions: edges do not match the node fields (run check.py --sync-edges)

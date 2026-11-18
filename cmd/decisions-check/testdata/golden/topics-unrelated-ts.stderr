@@ -1,0 +1,4 @@
+decisions: D-ban: source.timestamp missing
+decisions: topic people: D-kick (2026-01-02T00:00:00Z) and the earlier D-ban () are both active and unrelated: say how the newer one relates (supersede, refines, superseded_in_part_by, conflicts_with or coexists_with)
+decisions: ledger: D-handles changed its title/decision/decided_by/source (fingerprint d0bb9c304f22, ledger 560839ff36b8): append 'D-handles<TAB>d0bb9c304f22<TAB>corrected: <why>' or revert
+decisions: ledger: D-ban is not in the ledger (append 'D-ban<TAB>29a03a693a98<TAB>added')

@@ -1,0 +1,3 @@
+decisions: D-dark: source must be an object
+decisions: missing ingest {cursor: {session8: line}, triaged: [...]} (see web/cmd/directive-turns)
+decisions: ledger: D-dark changed its title/decision/decided_by/source (fingerprint dde6d56e1218, ledger 875f5d3af649): append 'D-dark<TAB>dde6d56e1218<TAB>corrected: <why>' or revert

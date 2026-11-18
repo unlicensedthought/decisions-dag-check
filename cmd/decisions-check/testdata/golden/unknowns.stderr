@@ -1,0 +1,7 @@
+decisions: D-handles: unknown without best_guess_reason
+decisions: D-handles: unknown must be decided_by assistant-best-guess
+decisions: D-kick: unknown must be decided_by assistant-best-guess
+decisions: D-dark: unknown without best_guess_reason
+decisions: D-dark: assistant-best-guess without best_guess_reason
+decisions: D-auto-deploy: assistant-best-guess without best_guess_reason
+decisions: ledger: D-auto-deploy changed its title/decision/decided_by/source (fingerprint 6d4ba9d3b0a3, ledger 632743645793): append 'D-auto-deploy<TAB>6d4ba9d3b0a3<TAB>corrected: <why>' or revert

@@ -1,0 +1,6 @@
+decisions: credential-like string (long opaque string) near 'xxxxxx...'
+decisions: D-handles: quote longer than 200 chars
+decisions: D-dark: quote longer than 200 chars
+decisions: ledger: D-handles changed its title/decision/decided_by/source (fingerprint fcc57a0b5630, ledger 560839ff36b8): append 'D-handles<TAB>fcc57a0b5630<TAB>corrected: <why>' or revert
+decisions: ledger: D-kick changed its title/decision/decided_by/source (fingerprint 27cc89c02ed8, ledger cd0313e9c78c): append 'D-kick<TAB>27cc89c02ed8<TAB>corrected: <why>' or revert
+decisions: ledger: D-dark changed its title/decision/decided_by/source (fingerprint b6f11d2ea5ee, ledger 875f5d3af649): append 'D-dark<TAB>b6f11d2ea5ee<TAB>corrected: <why>' or revert

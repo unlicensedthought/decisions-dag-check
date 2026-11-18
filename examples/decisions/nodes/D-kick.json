@@ -1,0 +1,25 @@
+{
+  "id": "D-kick",
+  "title": "Kick",
+  "decision": "Admins may kick.",
+  "why": "Abuse happens.",
+  "kind": "directive",
+  "source": {
+    "session": "aaaaaaaa-0000-4000-8000-000000000001",
+    "timestamp": "2026-01-02T00:00:00Z",
+    "quote": "let me kick people",
+    "ref": "aaaaaaaa:L20"
+  },
+  "decided_by": "operator",
+  "status": "active",
+  "depends_on": [
+    "D-handles"
+  ],
+  "coexists_with": [
+    "D-handles"
+  ],
+  "origin": "operator-turn",
+  "topics": [
+    "people"
+  ]
+}

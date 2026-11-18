@@ -1,0 +1,7 @@
+decisions: credential-like string (api key (sk-)) near 'sk-a1B...'
+decisions: credential-like string (api key (sk-)) near 'sk-a1B...'
+decisions: credential-like string (aws access key) near 'AKIAAB...'
+decisions: credential-like string (github token) near 'ghp_Ab...'
+decisions: credential-like string (long hex string) near '0aF90a...'
+decisions: credential-like string (long hex string) near '0aF90a...'
+decisions: credential-like string (long opaque string) near '0aF90a...'

@@ -1,0 +1,2 @@
+decisions: cycle: D-kick -> D-handles -> D-dark -> D-kick
+decisions: edges do not match the node fields (run check.py --sync-edges)

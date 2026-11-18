@@ -1,0 +1,21 @@
+{
+  "id": "D-dark",
+  "title": "Dark mode",
+  "decision": "The UI follows the system theme.",
+  "why": "Night use.",
+  "kind": "feature",
+  "source": {
+    "session": "bbbbbbbb-0000-4000-8000-000000000002",
+    "timestamp": "2026-01-02T12:00:00Z",
+    "quote": "assistant inferred"
+  },
+  "decided_by": "assistant-best-guess",
+  "best_guess_reason": "Nobody said otherwise.",
+  "unknown": true,
+  "status": "active",
+  "depends_on": [],
+  "origin": "assistant",
+  "topics": [
+    "ui"
+  ]
+}

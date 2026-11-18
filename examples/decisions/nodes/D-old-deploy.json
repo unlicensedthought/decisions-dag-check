@@ -1,0 +1,21 @@
+{
+  "id": "D-old-deploy",
+  "title": "Deploy by hand",
+  "decision": "Deploys are manual.",
+  "why": "Early days.",
+  "kind": "policy",
+  "source": {
+    "session": "bbbbbbbb-0000-4000-8000-000000000002",
+    "timestamp": "2026-01-01T06:00:00Z",
+    "quote": "deploy it yourself",
+    "ref": "bbbbbbbb:L5"
+  },
+  "decided_by": "operator",
+  "status": "superseded",
+  "superseded_by": "D-auto-deploy",
+  "depends_on": [],
+  "origin": "operator-turn",
+  "topics": [
+    "ops"
+  ]
+}

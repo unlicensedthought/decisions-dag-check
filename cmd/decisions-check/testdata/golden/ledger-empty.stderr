@@ -1,0 +1,5 @@
+decisions: ledger: D-handles is not in the ledger (append 'D-handles<TAB>560839ff36b8<TAB>added')
+decisions: ledger: D-kick is not in the ledger (append 'D-kick<TAB>cd0313e9c78c<TAB>added')
+decisions: ledger: D-dark is not in the ledger (append 'D-dark<TAB>875f5d3af649<TAB>added')
+decisions: ledger: D-old-deploy is not in the ledger (append 'D-old-deploy<TAB>178e57d1a26a<TAB>added')
+decisions: ledger: D-auto-deploy is not in the ledger (append 'D-auto-deploy<TAB>632743645793<TAB>added')
